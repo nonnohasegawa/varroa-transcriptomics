@@ -1,10 +1,6 @@
 ##############################################################################
-##############################################################################
-##############################################################################
-################ TRANSCRIPTOMIC ANALYSIS PIPELINE FOR BIG DATA ###############
-######## TAKEN SNAKEMAKE FILE FROM MAEVA TECHER AND EDITED BY NONNO H  #######
-##############################################################################
-##############################################################################
+###################### TRANSCRIPTOMIC ANALYSIS PIPELINE ######################
+##################### EDITED BY NONNO HASEGAWA 2020-2022  ####################
 ##############################################################################
 
 localrules: getHaps, all
@@ -17,25 +13,25 @@ SCRATCH = "/flash/MikheyevU/Nonno/scratch"
 DATADir = "/flash/MikheyevU/Nonno/temp/data"
 
 
-### PATHS FOR VARROA DESTRUCTOR GENOME AND REGIONS SPLIT
+### PATHS FOR VARROA DESTRUCTOR GENOME AND VIRUS INDEX
 VIRUSESRef = REFDir + "/viruses/viruses2020.fasta"
 VIRUSrenamed = REFDir + "/viruses/ENArenamed/viruses2020-ENA.fasta"
 renamedIndex = REFDir + "/viruses/ENArenamed/viruses-ENA"
 VIRUSESBowtieIndex = REFDir + "/viruses/viruses"
 
 
-### SAMPLES LIST AND OTHER PARAMETERS
+### SAMPLES NAME AND CONTIG NAME
 SAMPLES, = glob_wildcards(OUTDir + "/{sample}_R1.fastq") #this one is the exact raw input
 CONTIGS = ["CEND01000001.1", "KR819915.1", "KX578272.1", "KY354234.1", "KY354240.1", "MG571081.1", "MG571088.1", "MK032464.1", "MK032465.1", "MK032466.1", "MK032467.1", "MK032468.1", "MK032469.1", "MK032470.1", "NC_002066.1", "NC_002548.1", "NC_003784.1", "NC_004807.1", "NC_004830.2", "NC_006494.1", "NC_009025.1", "NC_010711.1", "NC_014137.1", "NC_027619.1", "NC_027631.1", "NC_032433.1", "NC_035071.1", "NC_040601.1"]
 
 
 rule all:
         input:
-        		#expand(DATADir + "/bowtie2/virus/ENA-renamed/alignments/{sample}.bam", sample = SAMPLES),
+        		expand(DATADir + "/bowtie2/virus/ENA-renamed/alignments/{sample}.bam", sample = SAMPLES),
         		expand(DATADir + "/bowtie2/virus/ENA-renamed/stats/flagstat/{sample}.txt", sample = SAMPLES),
         		expand(DATADir + "/bowtie2/virus/ENA-renamed/stats/idxstats/{sample}.txt", sample = SAMPLES),
-        		#DATADir + "/bowtie2/virus/ENA-renamed/varscan/ENA-sorted.mpileup",
-				#DATADir + "/bowtie2/virus/ENA-renamed/varscan/fasta/ENA-sorted.vcf.gz",
+        		DATADir + "/bowtie2/virus/ENA-renamed/varscan/ENA-sorted.mpileup",
+			DATADir + "/bowtie2/virus/ENA-renamed/varscan/fasta/ENA-sorted.vcf.gz",
 			DATADir + "/bowtie2/virus/ENA-renamed/varscan/fasta/indel.recode.vcf.gz",
         		expand(DATADir + "/bowtie2/virus/ENA-renamed/varscan/fasta/{contig}/{contig}-{sample}-aligned.fasta", sample = SAMPLES, contig = CONTIGS)
 
