@@ -9,4 +9,4 @@ Here you will find all the sample data including metadata. <br>
 - "summary.xlsx" contains information of viruses used in variant calling (contig). NCBI SRA accession, length, name, abbreviation. <br>
 
 ### files
-- "viruses2020-ENA.fasta" fasta file containing all the viruses used in the analysis as listed in data/viruses2020.xlsx
+- "viruses2020-ENA.fasta" fasta file containing all the virus seq used in variant calling as listed in data/viruses2020.xlsx
