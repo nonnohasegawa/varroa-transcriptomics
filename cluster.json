@@ -20,13 +20,6 @@
         "mem" : "50G",
         "time": "02:00:00"
     },
-    "nextgenmap":
-    {
-        "cpus-per-task" : 3,
-        "partition" : "compute",
-        "mem" : "200G",
-        "time": "2-00:00:00"
-    },
     "blastn":
     {
         "cpus-per-task" : 2,
@@ -145,83 +138,6 @@
         "partition" : "short",
         "mem" : "100G",
         "time": "0-02:00:00"
-    },
-    "merge_allsites":
-    {
-        "cpus-per-task" : 6,
-        "partition" : "short",
-        "mem" : "80G",
-        "time": "0-02:00:00"
-    },
-    "filter_allsites":
-    {
-        "cpus-per-task" : 2,
-        "partition" : "compute",
-        "mem" : "100G",
-        "time": "0-12:00:00"
-    },
-    "freebayes":
-    {
-        "cpus-per-task" : 2,
-        "partition" : "compute",
-        "mem" : "100G",
-        "time": "2-00:00:00"
-    },
-    "merge_snponly":
-    {
-        "cpus-per-task" : 4,
-        "partition" : "compute",
-        "mem" : "50G",
-        "time": "0-10:00:00"
-    },
-    "filter_snponly":
-    {
-        "cpus-per-task" : 2,
-        "partition" : "compute",
-        "mem" : "100G",
-        "time": "0-12:00:00"
-    },
-    "vcf2plink":
-    {
-        "cpus-per-task" : 1,
-        "partition" : "short",
-        "mem" : "40G",
-        "time": "0-02:00:00"
-    },
-    "plink_LDlist":
-    {
-        "cpus-per-task" : 1,
-        "partition" : "short",
-        "mem" : "40G",
-        "time": "0-02:00:00"
-    },
-    "LDpruning":
-    {
-        "cpus-per-task" : 1,
-        "partition" : "short",
-        "mem" : "50G",
-        "time": "0-02:00:00"
-    },
-    "vcf2GL":
-    {
-        "cpus-per-task" : 2,
-        "partition" : "short",
-        "mem" : "50G",
-        "time": "0-02:00:00"
-    },
-    "NGSadmix":
-    {
-        "cpus-per-task" : 2,
-        "partition" : "short",
-        "mem" : "100G",
-        "time": "0-02:00:00"
-    },
-    "freebayes_mtDNA":
-    {
-        "cpus-per-task" : 4,
-        "partition" : "compute",
-        "mem" : "200G",
-        "time": "0-12:00:00"
     },
     "filter_mtDNA":
     {
