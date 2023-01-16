@@ -1,6 +1,6 @@
 # Varroa transcriptomics project 
 Here I analyze transcriptomic sequence data of _Varroa destructor_, a parasite of the globally distributed western honey bee (_Apis mellifera_), which were collected from >50 regions of the world. Varroa mites were originally parasitizing the eastern honey bee (_Apis cerana_), but experienced a host switch after the global spread of _A. mellifera_ in the mid 20th century. Following this host switch, Varroa mites have successfully infested the western honey bee populations worldwide. <br>
-Raw sequence data are available under DDBJ/NCBI BioProject [PRJDB14940] (https://ddbj.nig.ac.jp/resource/bioproject/PRJDB14940) <br>
+Raw sequence data are available under DDBJ/NCBI BioProject [PRJDB14940] (https://ddbj.nig.ac.jp/resource/bioproject/PRJDB14940). <br>
 This project is a part of my PhD thesis at Okinawa Institute of Science and Technology. <br>
 
 ## Files and directories 
