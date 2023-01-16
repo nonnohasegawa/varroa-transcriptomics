@@ -16,5 +16,5 @@ Here you will find all the sample data including metadata. <br>
 - "Snakefile" is a file that dictates what rules and commands are run on snakemake <br>
 
 # Contact
-Please reach Nonno Hasegawa, at <br>
-[nonnohasegawa29@gmail.com] (nonnohasegawa29@gmail.com)
+If you have any questions, please reach Nonno Hasegawa, at <br>
+nonnohasegawa29@gmail.com
