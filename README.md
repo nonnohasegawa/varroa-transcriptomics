@@ -17,4 +17,4 @@ Here you will find all the sample data including metadata. <br>
 
 ## Contact
 If you have any questions, please reach Nonno Hasegawa, at <br>
-nonnohasegawa29@gmail.com
+nonno.hasegawa@outlook.com
