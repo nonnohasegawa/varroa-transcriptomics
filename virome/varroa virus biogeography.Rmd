@@ -1,0 +1,98 @@
+---
+title: "Varroa virome analysis"
+author: "Sasha Mikheyev"
+output: html_document
+editor_options: 
+  chunk_output_type: console
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+library(tidyverse)
+library(ggbiplot)
+library(compositions)
+library(vegan)
+library(flextable)
+```
+
+
+```{r convert_kallisto, eval = F}
+file_list <- list.files("data/kallisto", full.names = T)
+for (file in file_list){
+      
+  # if the merged dataset doesn't exist, create it
+  if (!exists("dataset")){
+    dataset <- read.table(file, header=TRUE, sep="\t")
+    dataset$library <- strsplit(file, "[/\\.]", perl = T)[[1]][3]
+  }
+  
+  # if the merged dataset does exist, append to it
+  if (exists("dataset")){
+    temp_dataset <- read.table(file, header=TRUE, sep="\t")
+    temp_dataset$library <- strsplit(file, "[/\\.]", perl = T)[[1]][3]
+    dataset<-rbind(dataset, temp_dataset)
+    rm(temp_dataset)
+  }
+}
+write_tsv(dataset, "data/kallisto.tsv")
+```
+
+```{r read_data}
+metadata <- read_csv("data/s1.csv") %>% separate(col = "Seq_ID", sep =  "_", into = c("A", "B", NA), extra = "drop") %>% mutate(library = paste(A, B, sep = "."))
+tpm <- read_tsv("data/kallisto.tsv") %>% 
+  mutate(library = gsub("_", ".", library), target_id = ifelse(grepl("VOV", target_id), "VOV", target_id), host = ifelse(grepl("_", target_id), "host", target_id)) %>% dplyr::group_by(library, host) %>% dplyr::summarise(tpm = sum(tpm), est_counts = sum(est_counts)) 
+
+counts <- tpm %>% group_by(library) %>% dplyr::summarize(counts = sum(est_counts))
+
+counts %>% mutate(type = ifelse(grepl("neg", library), "negative control", "sample")) %>%
+ggplot(aes(counts, fill = type)) + geom_histogram() + geom_vline(xintercept =  3e6, color = "red")
+
+badSamples <- counts$library[counts$counts < 3e6]
+
+tpm <- dplyr::select(tpm, -est_counts) %>% filter(! library %in% badSamples)  %>% pivot_wider( names_from = host, values_from = tpm) %>% ungroup()
+
+tpm <- tpm[,c(TRUE, colSums(tpm[,-1]>0)>nrow(tpm)*.1)] # filter out viruses found in less than 20% of the libraries
+```
+
+At this point, we removed low-abundance libraries and viruses that are found in less than 10% of the samples.
+
+```{r}
+tpm_alr <- alr(dplyr::select(tpm, -library) + 0.00001, match("host", names(dplyr::select(tpm, -library))))
+tpm_alr_pca <- prcomp(tpm_alr, scale. = T)
+dat <- tpm[,"library"] %>% left_join(metadata, by = c("library" = "library"))
+PCAvalues <- tibble(library = dat$library, host = dat$Host_species, mite = dat$Mite_species, asia = ifelse(dat$Region == "Asia", "Asia", "other"), PC1 = tpm_alr_pca$x[,1], PC2 = tpm_alr_pca$x[,2])
+PCAloadings <- tibble(Variables = rownames(tpm_alr_pca$rotation), PC1 = tpm_alr_pca$rotation[,1], PC2 = tpm_alr_pca$rotation[,2]) %>% mutate(DWV = ifelse(Variables %in% c("VDV-1", "DWV-a", "DWV-c"), T, F))
+
+PCAvalues %>% filter((mite == "Varroa destructor" | mite == "Varroa jacobsoni" ) & (host == "Apis cerana" | host == "Apis mellifera") ) %>%
+ggplot( aes(x = PC1, y = PC2, colour = host)) +
+  geom_segment(data = PCAloadings, aes(x = 0, y = 0, color = DWV, alpha = DWV, xend = (PC1*5),
+     yend = (PC2*5)), arrow = arrow(length = unit(1/2, "picas"))
+     ) +
+  geom_point(size = 3, aes(shape = mite)) + 
+  annotate("text", x = (PCAloadings$PC1*5), y = (PCAloadings$PC2*5),
+     label = PCAloadings$Variables) + theme_bw() + scale_alpha_discrete(range =  c(.4, 1)) + 
+  scale_shape_manual(values = c(1,16)) + guides(alpha="none") + scale_color_manual(values = c("orange", "steelblue", "black", "red")) + xlab(paste0("PCA1 (", round(summary(tpm_alr_pca)$importance[2,][1],2)*100, "%)")) + ylab(paste0("PCA2 (", round(summary(tpm_alr_pca)$importance[2,][2],2)*100, "%)")) -> p1
+#ggsave("pca.pdf", height=5, width = 7)
+```
+
+Compute relative importance of Vdes ad
+```{r}
+notMissing <- complete.cases(select(dat, Host_species, Mite_species, Region)) & (dat$Host_species %in% c("Apis mellifera", "Apis cerana")) & (dat$Mite_species %in% c("Varroa destructor", "Varroa jacobsoni"))
+alr_adonis <- adonis2(dist(tpm_alr[notMissing,]) ~ Host_species + Mite_species + Region, data = dat[notMissing,])
+tibble(factor = c("Host", "Mite", "Region"), `d.f.` = alr_adonis$Df[1:3], R2 = alr_adonis$R2[1:3], F =  alr_adonis$F[1:3], p = alr_adonis$`Pr(>F)`[1:3]) %>% flextable() %>% 
+  set_formatter(R2 = function(x) format(round(x, 2), big.mark = ",")) %>%
+  set_formatter(F = function(x) format(round(x, 2), big.mark = ",")) #%>% #save_as_docx(path = "adonis2.docx")
+```
+## Map the samples
+```{r}
+world_map <- map_data("world")
+p2 <- distinct(world_map, region) %>% 
+  ggplot(aes(map_id = region)) +
+  geom_map(map = world_map, fill = "whitesmoke", colour = "lightgrey") +
+  expand_limits(x = world_map$long, y = world_map$lat) + theme_bw() +
+  geom_point(data = metadata %>% filter(Mite_species %in% c("Varroa destructor", "Varroa jacobsoni")), aes(x=Longitude, y=Latitude, color = Host_species, shape = Mite_species ), inherit.aes=FALSE) + scale_color_manual(values = c("orange", "steelblue")) +  
+  scale_shape_manual(values = c(1,16)) + theme(legend.position = "top", axis.title = element_blank(), axis.text = element_blank(), axis.ticks = element_blank(), panel.border = element_blank(), plot.margin=unit(c(2,1,2,1), 'cm'))
+
+ggpubr::ggarrange(p2, p1, ncol=2, common.legend = TRUE, legend="bottom", widths = c(1.5,1))
+ggsave(file = "plots/Figure 1 map pca.pdf", width=11, height=5)
+```

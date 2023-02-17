@@ -1,0 +1,172 @@
+﻿Seq_ID,Sample_Name,Mite_species,Host_species,Sex,Region,Country,Location,Latitude,Longitude,Collection_year,Bioproviders,Biosample,SRA Run accession,Used for phylgeography
+CNV642_1_S25,V642.1,Varroa destructor,Apis cerana,Female,Asia,China,Guangdong,22.614,112.6318,2001,"Ting Zhou, John M. K. Roberts",SAMD00565742,DRR427064,#N/A
+CNV642_2_S26,V642.2,Varroa destructor,Apis cerana,Female,Asia,China,Guangdong,22.614,112.6318,2001,"Ting Zhou, John M. K. Roberts",SAMD00565744,DRR427065,#N/A
+CNV651_1_S27,V651.1,Varroa destructor,Apis cerana,Female,Asia,China,Yunnan,25.7295,101.3366,2002,"Ting Zhou, John M. K. Roberts",SAMD00565746,DRR427066,#N/A
+JP64_1_S91,JP64.1,Varroa destructor,Apis cerana,Female,Asia,Japan,Okinawa,26.4564,127.8239,2019,Maeva Techer,SAMD00565874,DRR427130,#N/A
+MMV781_1_S105,V781.1,Varroa destructor,Apis cerana,Female,Asia,Myanmar,Shan State,20.6702,96.6602,2003,"S. Peterson, John M. K. Roberts",SAMD00565902,DRR427144,#N/A
+NPV433_1_S127,V433.1,Varroa destructor,Apis cerana,Female,Asia,Nepal,NA,27.619,85.5388,2000,"J. Wilde, John M. K. Roberts",SAMD00565946,DRR427166,#N/A
+THV676_2_S182,V676.2,Varroa destructor,Apis cerana,Female,Asia,Thailand,Chiang Mai,18.806,98.9534,2003,"Denis Anderson, John M. K. Roberts",SAMD00566056,DRR427221,#N/A
+VNV149_1_S199,V149.1,Varroa destructor,Apis cerana,Female,Asia,Viet Nam,Ninh Binh,21.182,106.0016,1996,"Denis Anderson, John M. K. Roberts",SAMD00566090,DRR427238,#N/A
+VNV150_1_S200,V150.1,Varroa destructor,Apis cerana,Female,Asia,Viet Nam,Ninh Binh,20.3226,105.7496,1996,"Denis Anderson, John M. K. Roberts",SAMD00566092,DRR427239,#N/A
+BE03_1_S10,BE03.1,Varroa destructor,Apis mellifera,Female,Europe,Belgium,Gembloux,50.5663,4.7032,2016,Gregoire Noel,SAMD00565712,DRR427049,#N/A
+BE10_1_S11,BE10.1,Varroa destructor,Apis mellifera,Female,Europe,Belgium,Gembloux,50.5663,4.7032,2016,Gregoire Noel,SAMD00565714,DRR427050,#N/A
+BE21_1_S12,BE21.1,Varroa destructor,Apis mellifera,Female,Europe,Belgium,Grez-Doiceau,50.7419,4.7346,2016,Gregoire Noel,SAMD00565716,DRR427051,DWV-B
+BE32_1_S13,BE32.1,Varroa destructor,Apis mellifera,Female,Europe,Belgium,Grez-Doiceau,50.5367,4.6617,2016,Gregoire Noel,SAMD00565718,DRR427052,DWV-B
+BR01_2_S14,BR01.2,Varroa destructor,Apis mellifera,Female,South America,Brazil,Rio de Janeiro,-22.9068,-43.1729,1989,Lilia I. De Guzman,SAMD00565720,DRR427053,#N/A
+BR01_3_S15,BR01.3,Varroa destructor,Apis mellifera,Female,South America,Brazil,Rio de Janeiro,-22.9068,-43.1729,1989,Lilia I. De Guzman,SAMD00565722,DRR427054,#N/A
+BRV209_1_S16,V209.1,Varroa destructor,Apis mellifera,Female,South America,Brazil,Sao Paulo,-14.235,-51.9253,1989,"Lilia I. De Guzman, John M. K. Roberts",SAMD00565724,DRR427055,#N/A
+BRV209_2_S17,V209.2,Varroa destructor,Apis mellifera,Female,South America,Brazil,Sao Paulo,-14.235,-51.9253,1989,"Lilia I. De Guzman, John M. K. Roberts",SAMD00565726,DRR427056,#N/A
+CA033_1_S18,CA033.1,Varroa destructor,Apis mellifera,Female,North America,Canada,British Columbia,49.9019,-125.2905,2016,"Alison McAfee, Leonard Foster, Heather Higo",SAMD00565728,DRR427057,DWV-B
+CA087_1_S19,CA087.1,Varroa destructor,Apis mellifera,Female,North America,Canada,Quebec,45.7154,-71.7003,2016,"Alison McAfee, Leonard Foster, Heather Higo",SAMD00565730,DRR427058,#N/A
+CAV126_1_S20,V126.1,Varroa destructor,Apis mellifera,Female,North America,Canada,Winnipeg,42.8583,-80.2661,1996,John M. K. Roberts,SAMD00565732,DRR427059,#N/A
+CAV220_1_S21,V220.1,Varroa destructor,Apis mellifera,Female,North America,Canada,Winnipeg,49.8908,-97.1537,1997,John M. K. Roberts,SAMD00565734,DRR427060,#N/A
+CH01_1_S22,CH01.1,Varroa destructor,Apis mellifera,Female,Europe,Switzerland,Bern,46.9227,7.4449,2017,Viviane Wepfer,SAMD00565736,DRR427061,#N/A
+CH02_1_S23,CH02.1,Varroa destructor,Apis mellifera,Female,Europe,Switzerland,Bern,46.9227,7.4449,2017,Viviane Wepfer,SAMD00565738,DRR427062,#N/A
+CNV641_1_S24,V641.1,Varroa destructor,Apis mellifera,Female,Asia,China,Sichuan,31.3381,104.2207,2001,"Ting Zhou, John M. K. Roberts",SAMD00565740,DRR427063,#N/A
+CO01_1_S28,CO01.1,Varroa destructor,Apis mellifera,Female,South America,Colombia,Florencia,1.47888,-75.43724,2017,"Sasha Mikheyev, Gustavo Méndez Perdomo",SAMD00565748,DRR427067,DWV-A
+CO02_2_S29,CO02.2,Varroa destructor,Apis mellifera,Female,South America,Colombia,Florencia,1.47888,-75.43724,2017,"Sasha Mikheyev, Gustavo Méndez Perdomo",SAMD00565750,DRR427068,#N/A
+DE04_1_S31,DE04.1,Varroa destructor,Apis mellifera,Female,Europe,Germany,Hohenheim,48.7148,9.1895,2017,Peter Rosenkranz,SAMD00565754,DRR427070,#N/A
+DE08_1_S32,DE08.1,Varroa destructor,Apis mellifera,Female,Europe,Germany,Hohenheim,48.7148,9.1895,2017,Peter Rosenkranz,SAMD00565756,DRR427071,#N/A
+DZ04_1_NSpool,DZ04.1,Varroa destructor,Apis mellifera,Female,Africa,Algeria,North East,36.8651,7.7162,2017,Nizar J. Haddad; Adjlane Noureddine,SAMD00565758,DRR427072,DWV-A
+DZ07_1_pool,DZ07.1,Varroa destructor,Apis mellifera,Female,Africa,Algeria,North East,36.8651,7.7162,2017,Nizar J. Haddad; Adjlane Noureddine,SAMD00565760,DRR427073,DWV-A
+DZ11_1_pool,DZ11.1,Varroa destructor,Apis mellifera,Female,Africa,Algeria,North East,36.8651,7.7162,2017,Nizar J. Haddad; Adjlane Noureddine,SAMD00565762,DRR427074,#N/A
+DZ13_1_HS18,DZ13.1,Varroa destructor,Apis mellifera,Female,Africa,Algeria,North East,36.8651,7.7162,2017,Nizar J. Haddad; Adjlane Noureddine,SAMD00565764,DRR427075,#N/A
+DZ17_1_pool,DZ17.1,Varroa destructor,Apis mellifera,Female,Africa,Algeria,North Central,36.751,3.494,2017,Nizar J. Haddad; Adjlane Noureddine,SAMD00565766,DRR427076,#N/A
+DZ18_1_pool,DZ18.1,Varroa destructor,Apis mellifera,Female,Africa,Algeria,North Central,36.751,3.494,2017,Nizar J. Haddad; Adjlane Noureddine,SAMD00565768,DRR427077,#N/A
+EG01_1_HS18,EG01.1,Varroa destructor,Apis mellifera,Female,Africa,Egypt,NA,28.6172,30.7983,2016,Nizar J. Haddad,SAMD00565770,DRR427078,DWV-B
+ES03_1_pool,ES03.1,Varroa destructor,Apis mellifera,Female,Africa,Spain,La Palma,28.5919,-17.8827,2017,Pilar De la Rua; Irene Munoz,SAMD00565772,DRR427079,DWV-A
+ES04_1_pool,ES04.1,Varroa destructor,Apis mellifera,Female,Africa,Spain,La Palma,28.6784,-17.7899,2017,Pilar De la Rua; Irene Munoz,SAMD00565774,DRR427080,#N/A
+ES05_1_pool,ES05.1,Varroa destructor,Apis mellifera,Female,Africa,Spain,La Palma,28.615,-17.7795,2017,Pilar De la Rua; Irene Munoz,SAMD00565776,DRR427081,DWV-B
+ES09_1_pool,ES09.1,Varroa destructor,Apis mellifera,Female,Europe,Spain,Murcia,38.0265,-1.1759,2017,Pilar De la Rua,SAMD00565778,DRR427082,#N/A
+ES09_2_NSL2,ES09.2,Varroa destructor,Apis mellifera,Female,Europe,Spain,Murcia,38.0265,-1.1759,2017,Pilar De la Rua,SAMD00565780,DRR427083,#N/A
+ES10_2_NSL2,ES10.2,Varroa destructor,Apis mellifera,Female,Europe,Spain,Murcia,38.0265,-1.1759,2017,Pilar De la Rua,SAMD00565782,DRR427084,DWV-A/DWV-B
+ES11_2_NSL2,ES11.2,Varroa destructor,Apis mellifera,Female,Europe,Spain,Murcia,38.0265,-1.1759,2017,Pilar De la Rua,SAMD00565784,DRR427085,DWV-A/DWV-B
+ES13_2_NSL2,ES13.2,Varroa destructor,Apis mellifera,Female,Europe,Spain,Murcia,38.0265,-1.1759,2017,Pilar De la Rua,SAMD00565786,DRR427086,#N/A
+FR02_1_pool,FR02.1,Varroa destructor,Apis mellifera,Female,Europe,France,Avignon ,43.9146,4.8782,2017,Alexis Beaurepaire,SAMD00565790,DRR427088,DWV-B
+FR04_1_HS18,FR04.1,Varroa destructor,Apis mellifera,Female,Europe,France,Avignon ,43.9146,4.8782,2017,Alexis Beaurepaire,SAMD00565792,DRR427089,DWV-B
+FR05_1_pool,FR05.1,Varroa destructor,Apis mellifera,Female,Europe,France,Avignon ,43.9146,4.8782,2017,Alexis Beaurepaire,SAMD00565794,DRR427090,DWV-B
+FR06_1_pool,FR06.1,Varroa destructor,Apis mellifera,Female,Europe,France,Avignon ,43.9146,4.8782,2017,Alexis Beaurepaire,SAMD00565796,DRR427091,DWV-B
+GBV223_1_S53,V223.1,Varroa destructor,Apis mellifera,Female,Europe,United Kingdom,York,53.946,-1.0518,1997,"Stephen J. Martin, John M. K. Roberts",SAMD00565798,DRR427092,#N/A
+GBV223_2_S54,V223.2,Varroa destructor,Apis mellifera,Female,Europe,United Kingdom,York,53.946,-1.0518,1997,"Stephen J. Martin, John M. K. Roberts",SAMD00565800,DRR427093,DWV-A
+GRV513_1_S55,V513.1,Varroa destructor,Apis mellifera,Female,Europe,Greece,NA,39.0742,21.8243,2001,"Michel Kokkinis, John M. K. Roberts",SAMD00565802,DRR427094,DWV-A
+GRV514_1_S56,V514.1,Varroa destructor,Apis mellifera,Female,Europe,Greece,NA,39.0742,21.8243,2001,"Michel Kokkinis, John M. K. Roberts",SAMD00565804,DRR427095,DWV-A
+GRV515_1_S57,V515.1,Varroa destructor,Apis mellifera,Female,Europe,Greece,NA,39.0742,21.8243,2001,"Michel Kokkinis, John M. K. Roberts",SAMD00565806,DRR427096,DWV-A
+GRV516_1_S58,V516.1,Varroa destructor,Apis mellifera,Female,Europe,Greece,NA,39.0742,21.8243,2001,"Michel Kokkinis, John M. K. Roberts",SAMD00565808,DRR427097,DWV-A
+GRV517_1_S59,V517.1,Varroa destructor,Apis mellifera,Female,Europe,Greece,NA,39.0742,21.8243,2001,"Michel Kokkinis, John M. K. Roberts",SAMD00565810,DRR427098,DWV-A
+GRV518_1_S60,V518.1,Varroa destructor,Apis mellifera,Female,Europe,Greece,NA,40.4157,23.0093,2001,"Michel Kokkinis, John M. K. Roberts",SAMD00565812,DRR427099,DWV-A
+IL03_1_pool,IL03.1,Varroa destructor,Apis mellifera,Female,Middle East,Israel,Resion LeZion,31.9927,34.8172,2019,Nurit Eliash,SAMD00565822,DRR427104,DWV-B
+IL04_1_pool,IL04.1,Varroa destructor,Apis mellifera,Female,Middle East,Israel,Resion LeZion,31.9927,34.8172,2019,Nurit Eliash,SAMD00565824,DRR427105,DWV-B
+IL05_1_NSL1,IL05.1,Varroa destructor,Apis mellifera,Female,Middle East,Israel,Resion LeZion,31.9927,34.8172,2019,Nurit Eliash,SAMD00565826,DRR427106,DWV-B
+IL05_2_NSL2,IL05.2,Varroa destructor,Apis mellifera,Female,Middle East,Israel,Resion LeZion,31.9927,34.8172,2019,Nurit Eliash,SAMD00565828,DRR427107,DWV-B
+IQ01_2_S72,IQ01.2,Varroa destructor,Apis mellifera,Female,Middle East,Iraq,Baghdad,33.4658,44.1158,2016,Nizar J. Haddad; Abdulhusien Sehen AlMaleky,SAMD00565836,DRR427111,DWV-B
+JO02_1_S76,JO02.1,Varroa destructor,Apis mellifera,Female,Middle East,Jordan,NA,31.8432,35.6789,2016,Nizar J. Haddad,SAMD00565844,DRR427115,DWV-B
+JO03_1_S77,JO03.1,Varroa destructor,Apis mellifera,Female,Middle East,Jordan,NA,32.6066,35.9013,2017,Nizar J. Haddad,SAMD00565846,DRR427116,#N/A
+JO04_1_S78,JO04.1,Varroa destructor,Apis mellifera,Female,Middle East,Jordan,NA,32.6066,35.9013,2017,Nizar J. Haddad,SAMD00565848,DRR427117,#N/A
+JP01_1_S79,JP01.1,Varroa destructor,Apis mellifera,Female,Asia,Japan,Okinawa,26.4771,127.8354,2017,"Maeva Techer, Yoann Portugal",SAMD00565850,DRR427118,DWV-A
+JP02_1_S80,JP02.1,Varroa destructor,Apis mellifera,Female,Asia,Japan,Okinawa,26.4771,127.8354,2017,"Maeva Techer, Yoann Portugal",SAMD00565852,DRR427119,DWV-A
+JP03_1_S81,JP03.1,Varroa destructor,Apis mellifera,Female,Asia,Japan,Okinawa,26.4771,127.8354,2017,"Maeva Techer, Yoann Portugal",SAMD00565854,DRR427120,DWV-A
+JP04_1_S82,JP04.1,Varroa destructor,Apis mellifera,Female,Asia,Japan,Okinawa,26.4771,127.8354,2017,"Maeva Techer, Yoann Portugal",SAMD00565856,DRR427121,#N/A
+JP07_1_S83,JP07.1,Varroa destructor,Apis mellifera,Female,Asia,Japan,Tokyo,35.5656,139.464,2014,Jun-ichi Takahashi,SAMD00565858,DRR427122,DWV-A
+JP09_1_S84,JP09.1,Varroa destructor,Apis mellifera,Female,Asia,Japan,Tokyo,35.5656,139.464,2014,Jun-ichi Takahashi,SAMD00565860,DRR427123,DWV-A
+JP10_1_S85,JP10.1,Varroa destructor,Apis mellifera,Female,Asia,Japan,Kyoto,35.0217,135.767,2014,Jun-ichi Takahashi,SAMD00565862,DRR427124,DWV-A
+JP11_1_S86,JP11.1,Varroa destructor,Apis mellifera,Female,Asia,Japan,Kyoto,35.0217,135.767,2014,Jun-ichi Takahashi,SAMD00565864,DRR427125,#N/A
+JP15_1_S87,JP15.1,Varroa destructor,Apis mellifera,Female,Asia,Japan,Hyogo,34.6893,135.1953,2018,Jun-ichi Takahashi,SAMD00565866,DRR427126,DWV-A
+JP16_1_S88,JP16.1,Varroa destructor,Apis mellifera,Female,Asia,Japan,Hyogo,34.6893,135.1953,2018,Jun-ichi Takahashi,SAMD00565868,DRR427127,#N/A
+JP17_1_S89,JP17.1,Varroa destructor,Apis mellifera,Female,Asia,Japan,Hyogo,34.6893,135.1953,2018,Jun-ichi Takahashi,SAMD00565870,DRR427128,DWV-A
+JP29_1_S90,JP29.1,Varroa destructor,Apis mellifera,Female,Asia,Japan,Hokkaido,43.0621,141.3544,2018,Jun-ichi Takahashi,SAMD00565872,DRR427129,#N/A
+KRV153_2_S92,V153.2,Varroa destructor,Apis mellifera,Female,Asia,South Korea,Jeollabuk-do,35.5699,126.8559,1996,"Denis Anderson, John M. K. Roberts",SAMD00565876,DRR427131,DWV-A
+KRV158_2_S93,V158.2,Varroa destructor,Apis mellifera,Female,Asia,South Korea,Jeollabuk-do,35.5699,126.8559,1996,"Denis Anderson, John M. K. Roberts",SAMD00565878,DRR427132,DWV-A
+KRV159_1_S94,V159.1,Varroa destructor,Apis mellifera,Female,Asia,South Korea,Jeollabuk-do,35.5699,126.8559,1996,"Denis Anderson, John M. K. Roberts",SAMD00565880,DRR427133,DWV-A
+LB01_1_S96,LB01.1,Varroa destructor,Apis mellifera,Female,Middle East,Lebanon,NA,33.8786,35.6182,2016,Nizar J. Haddad; Elobeid Dany,SAMD00565884,DRR427135,#N/A
+LB02_1_S97,LB02.1,Varroa destructor,Apis mellifera,Female,Middle East,Lebanon,NA,33.8786,35.6182,2016,Nizar J. Haddad; Elobeid Dany,SAMD00565886,DRR427136,#N/A
+MG02_1_S101,MG02.1,Varroa destructor,Apis mellifera,Female,Africa,Madagascar,NA,-21.3213,47.2551,2015,"Olivier Esnault, Henriette Rasolofoarivao, Helene Delatte",SAMD00565894,DRR427140,#N/A
+MG03_1_S102,MG03.1,Varroa destructor,Apis mellifera,Female,Africa,Madagascar,NA,-18.9116,47.8929,2015,"Olivier Esnault, Henriette Rasolofoarivao, Helene Delatte",SAMD00565896,DRR427141,#N/A
+MG04_1_S103,MG04.1,Varroa destructor,Apis mellifera,Female,Africa,Madagascar,NA,-18.9119,47.9199,2015,"Olivier Esnault, Henriette Rasolofoarivao, Helene Delatte",SAMD00565898,DRR427142,#N/A
+MG08_1_S104,MG08.1,Varroa destructor,Apis mellifera,Female,Africa,Madagascar,NA,-15.7241,46.3175,2015,"Olivier Esnault, Henriette Rasolofoarivao, Helene Delatte",SAMD00565900,DRR427143,#N/A
+MMV783_1_S106,V783.1,Varroa destructor,Apis mellifera,Female,Asia,Myanmar,Shan State,20.6702,96.6602,2003,"S. Peterson, John M. K. Roberts",SAMD00565904,DRR427145,#N/A
+MMV784_1_S107,V784.1,Varroa destructor,Apis mellifera,Female,Asia,Myanmar,Shan State,20.6702,96.6602,2003,"S. Peterson, John M. K. Roberts",SAMD00565906,DRR427146,#N/A
+MU01_2_S108,MU01.2,Varroa destructor,Apis mellifera,Female,Africa,Mauritius,NA,-20.1677,57.5331,2014,"Olivier Esnault, Helene Delatte",SAMD00565908,DRR427147,#N/A
+MU03_2_S109,MU03.2,Varroa destructor,Apis mellifera,Female,Africa,Mauritius,NA,-20.1677,57.5331,2014,"Olivier Esnault, Helene Delatte",SAMD00565910,DRR427148,#N/A
+MU04_1_S110,MU04.1,Varroa destructor,Apis mellifera,Female,Africa,Mauritius,NA,-20.2394,57.4513,2014,"Olivier Esnault, Helene Delatte",SAMD00565912,DRR427149,#N/A
+MU07_2_S111,MU07.2,Varroa destructor,Apis mellifera,Female,Africa,Mauritius,NA,-20.2333,57.4903,2014,"Olivier Esnault, Helene Delatte",SAMD00565914,DRR427150,#N/A
+NG10_2_S115,NG10.2,Varroa destructor,Apis mellifera,Female,Africa,Nigeria,Sokoto,13.05,5.23,2018,Usman H. Dukku,SAMD00565922,DRR427154,#N/A
+NG11_2_S116,NG11.2,Varroa destructor,Apis mellifera,Female,Africa,Nigeria,Ebonyi,6.38,7.98,2018,Usman H. Dukku,SAMD00565924,DRR427155,#N/A
+NG12_2_S117,NG12.2,Varroa destructor,Apis mellifera,Female,Africa,Nigeria,Kano,11.06,8.64,2018,Usman H. Dukku,SAMD00565926,DRR427156,#N/A
+NG13_2_S118,NG13.2,Varroa destructor,Apis mellifera,Female,Africa,Nigeria,Bonny,4.42,7.25,2018,Usman H. Dukku,SAMD00565928,DRR427157,DWV-B
+NL01_1_S119,NL01.1,Varroa destructor,Apis mellifera,Female,Europe,Netherlands,Tiengemeten,51.7322,4.3483,2016,Delphine Panziera,SAMD00565930,DRR427158,DWV-B
+NL03_1_S120,NL03.1,Varroa destructor,Apis mellifera,Female,Europe,Netherlands,Tiengemeten,51.7322,4.3483,2016,Delphine Panziera,SAMD00565932,DRR427159,#N/A
+NL07_1_S121,NL07.1,Varroa destructor,Apis mellifera,Female,Europe,Netherlands,Tiengemeten,52.5358,5.5392,2016,Delphine Panziera,SAMD00565934,DRR427160,#N/A
+NL08_1_S122,NL08.1,Varroa destructor,Apis mellifera,Female,Europe,Netherlands,Tiengemeten,52.5358,5.5392,2016,Delphine Panziera,SAMD00565936,DRR427161,#N/A
+NZV428_1_S128,V428.1,Varroa destructor,Apis mellifera,Female,Oceania,New Zealand,NA,-40.9006,174.886,2000,John M. K. Roberts,SAMD00565948,DRR427167,#N/A
+NZV429_1_S129,V429.1,Varroa destructor,Apis mellifera,Female,Oceania,New Zealand,Auckland,-36.9678,174.7831,2000,John M. K. Roberts,SAMD00565950,DRR427168,#N/A
+PHV307_1_S135,V307.1,Varroa destructor,Apis mellifera,Female,Oceania,Philippines,Luzon,16.3253,120.3723,1998,"Lilia I. De Guzman, John M. K. Roberts",SAMD00565962,DRR427174,#N/A
+PHV311_1_S136,V311.1,Varroa destructor,Apis mellifera,Female,Oceania,Philippines,Luzon,16.3253,120.3723,1998,"Lilia I. De Guzman, John M. K. Roberts",SAMD00565964,DRR427175,#N/A
+PHV320_1_S137,V320.1,Varroa destructor,Apis mellifera,Female,Oceania,Philippines,Mindanao,7.3503,125.703,1998,"Lilia I. De Guzman, John M. K. Roberts",SAMD00565966,DRR427176,DWV-B
+PKV698_1_S138,V698.1,Varroa destructor,Apis mellifera,Female,Asia,Pakistan,Islamabad,33.6784,73.139,2003,"Denis Anderson, John M. K. Roberts",SAMD00565968,DRR427177,#N/A
+PLV493_1_S139,V493.1,Varroa destructor,Apis mellifera,Female,Europe,Poland,Mazovia,52.0826,20.9096,2000,John M. K. Roberts,SAMD00565970,DRR427178,DWV-A
+PLV494_1_S140,V494.1,Varroa destructor,Apis mellifera,Female,Europe,Poland,Mazovia,52.2134,20.9861,2000,John M. K. Roberts,SAMD00565972,DRR427179,DWV-A
+RE02_2_S148,RE02.2,Varroa destructor,Apis mellifera,Female,Africa,Reunion,Le Tampon,-21.0487,55.2734,2018,Olivier Esnault,SAMD00565988,DRR427187,#N/A
+RE05_2_S149,RE05.2,Varroa destructor,Apis mellifera,Female,Africa,Reunion,Le Tampon,-21.3428,55.5126,2018,Olivier Esnault,SAMD00565990,DRR427188,#N/A
+RE06_1_S150,RE06.1,Varroa destructor,Apis mellifera,Female,Africa,Reunion,Le Tampon,-21.2685,55.5116,2018,Olivier Esnault,SAMD00565992,DRR427189,#N/A
+RE06_2_S151,RE06.2,Varroa destructor,Apis mellifera,Female,Africa,Reunion,Le Tampon,-21.2685,55.5116,2018,Olivier Esnault,SAMD00565994,DRR427190,#N/A
+RE07_2_S152,RE07.2,Varroa destructor,Apis mellifera,Female,Africa,Reunion,Le Tampon,-21.2209,55.3204,2018,Olivier Esnault,SAMD00565996,DRR427191,#N/A
+RO01_1_S153,RO01.1,Varroa destructor,Apis mellifera,Female,Europe,Romania,Bihor,46.6649,21.4678,2017,"Alina Varaldi, Beekeepers, ROMAPIS",SAMD00565998,DRR427192,#N/A
+RO02_1_S154,RO02.1,Varroa destructor,Apis mellifera,Female,Europe,Romania,Bihor,46.6649,21.4678,2017,"Alina Varaldi, Beekeepers, ROMAPIS",SAMD00566000,DRR427193,#N/A
+RO03_1_S155,RO03.1,Varroa destructor,Apis mellifera,Female,Europe,Romania,Bihor,46.6649,21.4678,2017,"Alina Varaldi, Beekeepers, ROMAPIS",SAMD00566002,DRR427194,#N/A
+RO04_1_S156,RO04.1,Varroa destructor,Apis mellifera,Female,Europe,Romania,Bihor,46.7992,21.6554,2017,"Alina Varaldi, Beekeepers, ROMAPIS",SAMD00566004,DRR427195,#N/A
+RO09_1_S157,RO09.1,Varroa destructor,Apis mellifera,Female,Europe,Romania,Bihor,46.8116,21.6768,2017,"Alina Varaldi, Beekeepers, ROMAPIS",SAMD00566006,DRR427196,#N/A
+RO10_1_S158,RO10.1,Varroa destructor,Apis mellifera,Female,Europe,Romania,Bihor,46.8116,21.6768,2017,"Alina Varaldi, Beekeepers, ROMAPIS",SAMD00566008,DRR427197,#N/A
+RO15_1_S159,RO15.1,Varroa destructor,Apis mellifera,Female,Europe,Romania,Salaj,47.2499,23.1704,2017,"Alina Varaldi, Beekeepers, ROMAPIS",SAMD00566010,DRR427198,#N/A
+RO16_1_S160,RO16.1,Varroa destructor,Apis mellifera,Female,Europe,Romania,Salaj,47.2499,23.1704,2017,"Alina Varaldi, Beekeepers, ROMAPIS",SAMD00566012,DRR427199,#N/A
+RO24_1_S161,RO24.1,Varroa destructor,Apis mellifera,Female,Europe,Romania,Cluj,46.7857,23.2937,2017,"Alina Varaldi, Beekeepers, ROMAPIS",SAMD00566014,DRR427200,#N/A
+RO25_1_S162,RO25.1,Varroa destructor,Apis mellifera,Female,Europe,Romania,Cluj,46.7857,23.2937,2017,"Alina Varaldi, Beekeepers, ROMAPIS",SAMD00566016,DRR427201,#N/A
+RO32_1_S163,RO32.1,Varroa destructor,Apis mellifera,Female,Europe,Romania,Vatra Dornei,47.3575,25.3467,2017,"Alina Varaldi, Beekeepers, ROMAPIS",SAMD00566018,DRR427202,#N/A
+RO32_2_S164,RO32.2,Varroa destructor,Apis mellifera,Female,Europe,Romania,Vatra Dornei,47.3575,25.3467,2017,"Alina Varaldi, Beekeepers, ROMAPIS",SAMD00566020,DRR427203,#N/A
+RO33_1_S165,RO33.1,Varroa destructor,Apis mellifera,Female,Europe,Romania,Vatra Dornei,47.3575,25.3467,2017,"Alina Varaldi, Beekeepers, ROMAPIS",SAMD00566022,DRR427204,#N/A
+RS10_2_S166,RS10.2,Varroa destructor,Apis mellifera,Female,Europe,Serbia,Belgrade,44.7943,20.4656,2017,Jevrosima Stevanovic,SAMD00566024,DRR427205,DWV-A
+RS12_1_S167,RS12.1,Varroa destructor,Apis mellifera,Female,Europe,Serbia,Sjenica,43.2741,20.0032,2017,Jevrosima Stevanovic,SAMD00566026,DRR427206,#N/A
+RS20_1_S168,RS20.1,Varroa destructor,Apis mellifera,Female,Europe,Serbia,Tutin,42.99,20.3336,2017,Jevrosima Stevanovic,SAMD00566028,DRR427207,#N/A
+RS23_2_S169,RS23.2,Varroa destructor,Apis mellifera,Female,Europe,Serbia,Priboj,43.5828,19.5267,2017,Jevrosima Stevanovic,SAMD00566030,DRR427208,#N/A
+SD01_1_S174,SD01.1,Varroa destructor,Apis mellifera,Female,Africa,Sudan,Al-Khartoum,15.6598,32.5302,2016,Nizar J. Haddad,SAMD00566040,DRR427213,#N/A
+SD02_1_S175,SD02.1,Varroa destructor,Apis mellifera,Female,Africa,Sudan,Al-Khartoum,15.6598,32.5302,2016,Nizar J. Haddad,SAMD00566042,DRR427214,DWV-A
+SD03_1_S176,SD03.1,Varroa destructor,Apis mellifera,Female,Africa,Sudan,Al-Khartoum,15.6598,32.5302,2016,Nizar J. Haddad,SAMD00566044,DRR427215,DWV-A
+SE02_2_S177,SE02.2,Varroa destructor,Apis mellifera,Female,Europe,Sweden,Gotland,57.0687,18.2075,2017,Barbara Locke,SAMD00566046,DRR427216,#N/A
+SE03_2_S178,SE03.2,Varroa destructor,Apis mellifera,Female,Europe,Sweden,Gotland,57.0687,18.2075,2017,Barbara Locke,SAMD00566048,DRR427217,#N/A
+SE04_2_S179,SE04.2,Varroa destructor,Apis mellifera,Female,Europe,Sweden,Gotland,59.818,17.6564,2017,Barbara Locke,SAMD00566050,DRR427218,#N/A
+SE05_2_S180,SE05.2,Varroa destructor,Apis mellifera,Female,Europe,Sweden,Uppsala,59.818,17.6564,2017,Barbara Locke,SAMD00566052,DRR427219,DWV-A
+US026_1_S186,US026.1,Varroa destructor,Apis mellifera,Female,North America,USA,Louisiana ,30.3795,-91.1666,2018,"Lilia I. De Guzman, Mandy Frake",SAMD00566064,DRR427225,#N/A
+US056_1_S187,US056.1,Varroa destructor,Apis mellifera,Female,North America,USA,Florida ,28.9525,-81.6548,1998,"Lilia I. De Guzman, Mandy Frake",SAMD00566066,DRR427226,#N/A
+US083_1_S188,US083.1,Varroa destructor,Apis mellifera,Female,North America,USA,NA,41.7957,-71.427,2018,"Jay Evans, APHIS",SAMD00566068,DRR427227,#N/A
+US084_1_S189,US084.1,Varroa destructor,Apis mellifera,Female,North America,USA,NA,48.1866,-114.2704,2018,"Jay Evans, APHIS",SAMD00566070,DRR427228,#N/A
+US085_1_S190,US085.1,Varroa destructor,Apis mellifera,Female,North America,USA,NA,40.3777,-105.5171,2018,"Jay Evans, APHIS",SAMD00566072,DRR427229,DWV-B
+US151_1_S191,US151.1,Varroa destructor,Apis mellifera,Female,North America,USA,Hawaii,19.726,-155.0895,2017,"Krisztina Christmon, Dennis vanEngelsdorp, APHIS",SAMD00566074,DRR427230,DWV-A
+US152_1_S192,US152.1,Varroa destructor,Apis mellifera,Female,North America,USA,Hawaii,19.726,-155.0895,2017,"Krisztina Christmon, Dennis vanEngelsdorp, APHIS",SAMD00566076,DRR427231,#N/A
+US153_1_S193,US153.1,Varroa destructor,Apis mellifera,Female,North America,USA,Hawaii,19.726,-155.0895,2017,"Krisztina Christmon, Dennis vanEngelsdorp, APHIS",SAMD00566078,DRR427232,#N/A
+UY01_1_S194,UY01.1,Varroa destructor,Apis mellifera,Female,South America,Uruguay,Treinta y Tres,-33.2516,-54.4281,2018,"Alexis Beaurepaire, Karina Antunez",SAMD00566080,DRR427233,#N/A
+UY03_1_S195,UY03.1,Varroa destructor,Apis mellifera,Female,South America,Uruguay,Treinta y Tres,-33.2516,-54.4281,2018,"Alexis Beaurepaire, Karina Antunez",SAMD00566082,DRR427234,DWV-A
+UY05_1_S196,UY05.1,Varroa destructor,Apis mellifera,Female,South America,Uruguay,Treinta y Tres,-33.2516,-54.4281,2018,"Alexis Beaurepaire, Karina Antunez",SAMD00566084,DRR427235,#N/A
+UY08_1_S197,UY08.1,Varroa destructor,Apis mellifera,Female,South America,Uruguay,Treinta y Tres,-33.2516,-54.4281,2018,"Alexis Beaurepaire, Karina Antunez",SAMD00566086,DRR427236,#N/A
+UY10_1_S198,UY10.1,Varroa destructor,Apis mellifera,Female,South America,Uruguay,Treinta y Tres,-33.2516,-54.4281,2018,"Alexis Beaurepaire, Karina Antunez",SAMD00566088,DRR427237,DWV-A
+IDV325_W_S61,V325.W,Varroa jacobsoni,Apis cerana,Female,Oceania,Indonesia,Lombok,-8.8803,116.2836,1998,"Denis Anderson, John M. K. Roberts",SAMD00565814,DRR427100,#N/A
+IDV333_2_S62,V333.2,Varroa jacobsoni,Apis cerana,Female,Oceania,Indonesia,Java,-6.3481,106.5694,1998,"Denis Anderson, John M. K. Roberts",SAMD00565816,DRR427101,#N/A
+IDV565_1_S63,V565.1,Varroa jacobsoni,Apis cerana,Female,Oceania,Indonesia,Java,-6.9266,106.9553,2002,"Denis Anderson, John M. K. Roberts",SAMD00565818,DRR427102,#N/A
+IDV565_2_S64,V565.2,Varroa jacobsoni,Apis cerana,Female,Oceania,Indonesia,Java,-6.9266,106.9553,2002,"Denis Anderson, John M. K. Roberts",SAMD00565820,DRR427103,#N/A
+INV546_1_S71,V546.1,Varroa jacobsoni,Apis cerana,Female,Asia,India,Bangalore,13.0707,77.5798,2002,"Denis Anderson, John M. K. Roberts",SAMD00565834,DRR427110,#N/A
+LAV420_1_S95,V420.1,Varroa jacobsoni,Apis cerana,Female,Oceania,Laos,NA,18.037,102.6351,2000,"Denis Anderson, John M. K. Roberts",SAMD00565882,DRR427134,#N/A
+MYV028_1_S112,V028.1,Varroa jacobsoni,Apis cerana,Female,Asia,Malaysia,Kuala Lumpur,2.9879,101.7352,1995,"Denis Anderson, John M. K. Roberts",SAMD00565916,DRR427151,#N/A
+PGV854_1_S131,V854.1,Varroa jacobsoni,Apis cerana,Female,Oceania,Papua New Guinea,Eastern Highlands,-6.0835,145.3863,2008,"Denis Anderson, John M. K. Roberts",SAMD00565954,DRR427170,#N/A
+PGV950_2_S132,V950.2,Varroa jacobsoni,Apis cerana,Female,Oceania,Papua New Guinea,Eastern Highlands,-6.3433,145.9081,1997,"Denis Anderson, John M. K. Roberts",SAMD00565956,DRR427171,#N/A
+THV677_1_S183,V677.1,Varroa jacobsoni,Apis cerana,Female,Asia,Thailand,Chiang Mai,18.806,98.9534,2003,"Denis Anderson, John M. K. Roberts",SAMD00566058,DRR427222,#N/A
+VNV787_1_S201,V787.1,Varroa jacobsoni,Apis cerana,Female,Asia,Viet Nam,Rach Gia,10.0215,105.0911,2004,"Denis Anderson, John M. K. Roberts",SAMD00566094,DRR427240,#N/A
+VNV788_1_S202,V788.1,Varroa jacobsoni,Apis cerana,Female,Asia,Viet Nam,My Tho,10.3765,106.3439,2004,"Denis Anderson, John M. K. Roberts",SAMD00566096,DRR427241,#N/A
+VNV789_1_S203,V789.1,Varroa jacobsoni,Apis cerana,Female,Asia,Viet Nam,Ben tre,10.1572,106.5045,2004,"Denis Anderson, John M. K. Roberts",SAMD00566098,DRR427242,#N/A
+VNV789_2_S204,V789.2,Varroa jacobsoni,Apis cerana,Female,Asia,Viet Nam,Ben tre,10.1572,106.5045,2004,"Denis Anderson, John M. K. Roberts",SAMD00566100,DRR427243,#N/A
+PGV852_3_S130,V852.3,Varroa jacobsoni,Apis mellifera,Female,Oceania,Papua New Guinea,Eastern Highlands,-6.0835,145.3863,2008,"Denis Anderson, John M. K. Roberts",SAMD00565952,DRR427169,#N/A
+PGV953_2_S133,V953.2,Varroa jacobsoni,Apis mellifera,Female,Oceania,Papua New Guinea,Eastern Highlands,-6.1281,145.429,2014,"Denis Anderson, John M. K. Roberts",SAMD00565958,DRR427172,#N/A
+PGV954_1_S134,V954.1,Varroa jacobsoni,Apis mellifera,Female,Oceania,Papua New Guinea,Eastern Highlands,-6.0351,144.9603,2014,"Denis Anderson, John M. K. Roberts",SAMD00565960,DRR427173,#N/A
+THV003_1_S181,V003.1,Varroa jacobsoni,Apis mellifera,Female,Asia,Thailand,Bangkok,13.843,100.5771,1994,"C. Kitprasert, John M. K. Roberts",SAMD00566054,DRR427220,#N/A
+MYV431_1_S113,V431.1,Varroa rindereri,Apis dorsata,Female,Oceania,Malaysia,Borneo,5.1746,115.9836,2000,"Nikolaus Koeniger, John M. K. Roberts",SAMD00565918,DRR427152,#N/A
+MYV571_1_S114,V571.1,Varroa rindereri,Apis koschevnikovi,Female,Oceania,Malaysia,Borneo,5.9388,116.0839,2000,"Nikolaus Koeniger, John M. K. Roberts",SAMD00565920,DRR427153,#N/A
+LKV424_1_S98,V424.1,Varroa sp.,Apis cerana,Female,Asia,Sri Lanka,Kalutara,6.7559,80.0539,2000,"Denis Anderson, John M. K. Roberts",SAMD00565888,DRR427137,#N/A
+LKV425_1_S99,V425.1,Varroa sp.,Apis mellifera,Female,Asia,Sri Lanka,Badulla,6.8437,81.0219,2000,"Denis Anderson, John M. K. Roberts",SAMD00565890,DRR427138,#N/A
+LKV427_1_S100,V427.1,Varroa sp.,Apis mellifera,Female,Asia,Sri Lanka,Badulla,6.8437,81.0219,2000,"Denis Anderson, John M. K. Roberts",SAMD00565892,DRR427139,#N/A
