@@ -11,6 +11,7 @@ Here you will find all the sample data including metadata. <br>
 - "NCBI-phylo.xlsx" contains SRA accession from NCBI, virus name, collection year, region, and host species as well as samples from our study that was used for phylogenetics analysis. <br>
 - "summary.xlsx" contains information of viruses used in variant calling (contig). NCBI SRA accession, length, name, abbreviation. <br>
 - "viruses2020-ENA.fasta" is a fasta file containing all the virus seq used in variant calling as listed in data/viruses2020.xlsx
+- "DWV-A.xml" and "DWV-B.xml" contain virus alignments used in the phylogeography analysis
 
 ### other files
 - "cluster.json" is a file that dictates all the cluster configuration for each rule in snakemake <br>
