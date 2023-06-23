@@ -27,4 +27,4 @@ nonno.hasegawa@outlook.com
 ## Preprint
 The preprint is available on [biorxiv](https://www.biorxiv.org/content/10.1101/2023.01.21.525007v2.abstract).
 
-## Manuscript accepted and published here [PNAS](https://doi.org/10.1073/pnas.2301258120).
+## Manuscript accepted and published [here](https://doi.org/10.1073/pnas.2301258120).
